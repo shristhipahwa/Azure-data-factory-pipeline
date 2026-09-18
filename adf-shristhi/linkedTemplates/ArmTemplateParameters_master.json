@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-shristhi"
+		},
+		"linkedservice1_accountKey": {
+			"value": ""
+		},
+		"http1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"linkedservice1_properties_typeProperties_url": {
+			"value": "https://storagedatalakeshristhi.dfs.core.windows.net/"
+		},
+		"Mantrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/aa754e45-6bad-48f1-a9e0-9bd9510dda44/resourceGroups/RG_ADF/providers/Microsoft.Storage/storageAccounts/storagedatalakeshristhi"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
